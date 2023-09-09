@@ -1,0 +1,4 @@
+2023-09-09 14:41:45,191 - root - INFO - Calling function: add
+2023-09-09 14:41:45,191 - root - INFO - Function result: 8
+2023-09-09 14:41:45,192 - root - INFO - Calling function: subtract
+2023-09-09 14:41:45,192 - root - INFO - Function result: 6
