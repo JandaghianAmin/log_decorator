@@ -12,8 +12,11 @@ def log_function_call(func):
         # Call the original function and capture its return value
         result = func(*args, **kwargs)
         
+        ar = ''
+        for i in args:
+            ar = ar + str(i) + ' '
         # Log the result, if applicable
-        logging.info(f'Function result: {result}')
+        logging.info(f'Function args is:{ar} and result: {result}')
         
         return result
     
@@ -29,5 +32,5 @@ def subtract(a, b):
     return a - b
 
 # Test the decorated functions
-result1 = add(5, 3)
-result2 = subtract(10, 4)
+result1 = add(8, 6)
+result2 = subtract(9, 3)
